@@ -1,0 +1,47 @@
+{
+    "name": "velte-starter-kit",
+    "version": "1.0.1",
+    "description": "A simple web application using velte.",
+    "main": "",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "velte:serve": "webpack-dev-server --config webpack.dev.js --mode development",
+      "velte:build": "webpack --config webpack.prod.js --mode production",
+      "velte:preview": "npm run velte:build && http-server dist",
+      "kickstart": "node kickstarter"
+    },
+    "keywords": [],
+    "author": "Emmanuel Oni",
+    "license": "ISC",
+    "dependencies": {
+      "@picocss/pico": "^1.5.2",
+      "css-loader": "^6.7.1",
+      "file-loader": "^6.2.0",
+      "normalize.css": "^8.0.1",
+      "sass": "^1.52.1",
+      "sass-loader": "^13.0.0",
+      "snabbdom": "^3.5.0",
+      "style-loader": "^3.3.1",
+      "svg-inline-loader": "^0.8.2",
+      "valtio": "^1.6.1",
+      "velte": "^1.0.4"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.18.2",
+      "@babel/helper-module-imports": "^7.16.7",
+      "@babel/plugin-transform-react-jsx": "^7.17.12",
+      "@babel/preset-env": "^7.18.2",
+      "babel-loader": "^8.2.5",
+      "babel-plugin-jsx-control-statements": "^4.1.2",
+      "babel-plugin-loop-optimizer": "^1.4.1",
+      "babel-plugin-macros": "^3.1.0",
+      "html-webpack-plugin": "^5.5.0",
+      "http-server": "^14.1.0",
+      "rimraf": "^3.0.2",
+      "source-map-loader": "^3.0.1",
+      "webpack": "^5.72.1",
+      "webpack-cli": "^4.9.2",
+      "webpack-dev-server": "^4.9.0"
+    }
+  }
+  

@@ -1,0 +1,11 @@
+{
+    "plugins":[
+        ["@babel/plugin-transform-react-jsx",{
+            "pragma":"VelteElement",
+            "throwIfNamespace":false
+        }],
+        "babel-plugin-jsx-control-statements",
+        "babel-plugin-loop-optimizer",
+        "babel-plugin-macros"
+    ]
+}
